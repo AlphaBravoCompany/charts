@@ -1,5 +1,3 @@
-# AlphaBravo Helm Charts
-
 Welcome to the AlphaBravo Helm chart repository.
 
 Below is a list of Helm charts and how to use them.
