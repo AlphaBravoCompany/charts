@@ -31,5 +31,5 @@ helm search repo abscan
 Update the ABScan repository:
 
 ```bash
-helm repo upgrade
+helm repo update
 ```
