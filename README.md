@@ -10,10 +10,16 @@ Add the repository.
 helm repo add abscan https://helm.ablabs.io/abscan
 ```
 
+Generate a values.yaml file.
+
+```bash
+helm show values abscan > my_values.yaml
+```
+
 Install ABScan.
 
 ```bash
-helm install --namespace abscan --create-namespace abscan abscan/abscan
+helm install -f my_values.yaml --namespace abscan --create-namespace abscan abscan/abscan
 ```
 
 Get Chart and Application version information.
