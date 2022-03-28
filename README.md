@@ -7,19 +7,19 @@ Below is a list of Helm charts and how to use them.
 Add the repository.
 
 ```bash
-helm repo add abscan https://helm.ablabs.io/abscan
+helm repo add ablabs https://helm.ablabs.io/abscan
 ```
 
 Generate a values.yaml file.
 
 ```bash
-helm show values abscan > my_values.yaml
+helm show values ablabs/abscan > my_values.yaml
 ```
 
 Install ABScan.
 
 ```bash
-helm install -f my_values.yaml --namespace abscan --create-namespace abscan abscan/abscan
+helm install -f my_values.yaml --namespace abscan --create-namespace abscan ablabs/abscan
 ```
 
 Get Chart and Application version information.
