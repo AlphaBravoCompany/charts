@@ -3,7 +3,17 @@ entries:
   abscan:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-03-28T15:15:34.95491981-04:00"
+    created: "2022-03-30T15:14:01.627633181-04:00"
+    description: The security scanning agreggator from AlphaBravo.
+    digest: 5607265e666d842c4c10a4d675798dcfa1c71f0dd9470120a10846eb2ebf4d34
+    name: abscan
+    type: application
+    urls:
+    - abscan-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-03-30T15:14:01.627194613-04:00"
     description: The security scanning agreggator from AlphaBravo.
     digest: 56175f3053e735e3d03c66c1e39ac44d62a7d3073b7a2a89d1ecaead951d5686
     name: abscan
@@ -13,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-03-28T15:15:34.954445343-04:00"
+    created: "2022-03-30T15:14:01.626738586-04:00"
     description: The security scanning agreggator from AlphaBravo.
     digest: 14c3e476d300de66c8c43eac819573ec3a90fd5b33a3b8db246920638b3f6ded
     name: abscan
@@ -21,4 +31,4 @@ entries:
     urls:
     - abscan-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-28T15:15:34.953960466-04:00"
+generated: "2022-03-30T15:14:01.626223239-04:00"
