@@ -2,14 +2,21 @@ Welcome to the AlphaBravo Helm chart repository.
 
 Below is a list of Helm charts and how to use them.
 
-## ABScan
-
+## Add the Repository to Helm
 Add the repository.
 
 ```bash
 helm repo add ablabs https://helm.ablabs.io/abscan
 ```
 
+## Update the Repository
+Update the ABLabs repository:
+
+```bash
+helm repo update
+```
+
+## Install ABScan
 Generate a values.yaml file.
 
 ```bash
@@ -28,8 +35,21 @@ Get Chart and Application version information.
 helm search repo abscan
 ```
 
-Update the ABScan repository:
+## Install CVE-Search Database Updater
+Generate a values.yaml file.
 
 ```bash
-helm repo update
+helm show values ablabs/cve-search > my_values.yaml
+```
+
+Install CVE-Search.
+
+```bash
+helm install -f my_values.yaml --namespace abscan --create-namespace abscan ablabs/cve-search
+```
+
+Get Chart and Application version information.
+
+```bash
+helm search repo cve-search
 ```
