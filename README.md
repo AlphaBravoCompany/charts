@@ -6,7 +6,8 @@ Below is a list of Helm charts and how to use them.
 Add the repository.
 
 ```bash
-helm repo add ablabs https://helm.ablabs.io/charts
+helm repo add abscan https://helm.ablabs.io/abscan
+helm repo add cve-search https://helm.ablabs.io/cve-search
 ```
 
 ## Update the Repository
