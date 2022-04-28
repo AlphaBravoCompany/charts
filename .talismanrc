@@ -10,3 +10,7 @@ fileignoreconfig:
 - filename: abscan/index.yaml
   checksum: 4cc66aee03134d4b7f0277f62f314823d0a4907c6aec41773ce31c23eec2cbe1
 version: ""
+fileignoreconfig:
+- filename: cve-search/index.yaml
+  checksum: 1c02937ef0c17bf5de16d2156b4336d42bd6f66948b7c08c326f3a8c7b6f52c0
+version: ""
