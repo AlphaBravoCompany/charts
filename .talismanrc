@@ -30,3 +30,7 @@ fileignoreconfig:
 - filename: abscan/index.yaml
   checksum: 0f733756782c312ae1b0bb1a4dcbeb27b296f012e47d6a9b8f00deb2ced5b468
 version: ""
+fileignoreconfig:
+- filename: abscan/index.yaml
+  checksum: eeee00b537e632cde079c709749b315626e37de8744a74faa652a38af88947a9
+version: ""
